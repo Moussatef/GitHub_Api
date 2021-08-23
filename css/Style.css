@@ -1,0 +1,114 @@
+.card_info {
+    width: 110%;
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.row {
+    width: 50%;
+    margin: 2% auto 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#blog,
+.item_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.media {
+    text-align: left;
+}
+
+.avatar_smal {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.recherch {
+    width: 200px;
+    margin: 2% 10% 1% 0%;
+}
+
+#btn_rech {
+    margin: 2% 10% 1% 0%;
+
+}
+
+.item_img {
+    width: 30%;
+    text-align: center;
+    align-items: center;
+}
+
+.item_img h6 {
+    font-size: 24px;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+}
+
+.item_img hr {
+    border-bottom: 1px solid rgb(97, 97, 97);
+    margin: 3px;
+}
+
+.item_info {
+    width: 70%;
+}
+
+.item_info .username {
+    margin: 50px 50px 0px 50px;
+}
+
+
+.item_info .item_follow {
+    margin: 10px 50px 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.item_f {
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+.card_repo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item_card {
+    width: 80%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.item_card .item_title {}
+
+.item_card {
+    width: 100%;
+    margin-left: 100px;
+    border-bottom: 1px solid rgb(110, 110, 110);
+}
+
+#btn_rech {
+    float: right;
+}
